@@ -1,0 +1,11 @@
+{
+  "name": "industry_weapon",
+  "version": "1.0.0",
+  "description": "An uber simple responsive single page",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JDillon522/IW-Test"
+  },
+  "author": "Joseph Dillon",
+  "license": "MIT"
+}

@@ -3,6 +3,16 @@
   width: 960px !important;
 }
 
+.empty-footer {
+  height: 75px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 @media (min-width: 768px){
   .nav {
     margin: 0 auto;
@@ -13,10 +23,6 @@
 
   .learn-more {
     min-width: 250px;
-  }
-
-  img {
-    padding: auto;
   }
 
   .title {
