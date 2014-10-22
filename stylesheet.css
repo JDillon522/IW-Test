@@ -17,4 +17,9 @@
   .title {
     margin-top: 0px;
   }
+
+  .featured-article {
+    border-top: 1px solid gray;
+    padding-top: 20px;
+  }
 }
