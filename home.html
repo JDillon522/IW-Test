@@ -22,22 +22,27 @@
 </head>
 <body>
   <div class="container-fluid">
-    <!-- NAV -->
-    <ul class="nav nav-pills" role="tablist">
-      <li><a href="#"><h2>Home</h2></a></li>
-      <li><a href="#"><h2>About</h2></a></li>
-      <li><a href="#"><h2>Blog</h2></a></li>
-      <li><a href="#"><h2>News</h2></a></li>
-    </ul>
-  
-    <section>
+    
+    <nav class="dark">
+      <div class="row">
+        <!-- NAV -->
+        <ul class="nav nav-pills" role="tablist">
+          <li><a href="#"><h2>Home</h2></a></li>
+          <li><a href="#"><h2>About</h2></a></li>
+          <li><a href="#"><h2>Blog</h2></a></li>
+          <li><a href="#"><h2>News</h2></a></li>
+        </ul>
+      </div>
+    </nav>
+      
+    <section class="light">
       <div class="row">
         <div class="col-lg-3 col-md-3 col-sm-3">
           <img src="http://lorempixel.com/250/250" alt="First Image" class="img-responsive">
         </div>
         <div class="col-lg-9 col-md-9 col-sm-9">
           <article>
-            <h1 class="title">Responsive Web Design</h1>
+            <h1>Responsive Web Design</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
             <p>laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p>
 
@@ -47,12 +52,12 @@
       </div>    
     </section>
 
-    <section>
+    <section class="dark">
       <div class="row">
         <div class="col-lg-9 col-md-9">
-          <h1>Blog Article Title</h1>
           <!-- BlogRow1 -->
-          <div class="row">
+          <div class="wrapper"><div class="row">
+            <h1 class="title">Blog Article Title</h1>
             <div class="col-lg-4 col-md-4 col-sm-4">
               <img src="http://lorempixel.com/190/190" alt="First Image" class="img-responsive">  
             </div>
@@ -60,9 +65,9 @@
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
               <p>laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p>
             </div>
-          </div>
+          </div></div>
           <!-- BlogRow2 -->
-          <div class="row">
+          <div class="wrapper"><div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12">
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id dapibus purus. Proin est neque, tempus sit amet ex eget, eleifend volutpat diam. Pellentesque sollicitudin nunc massa, sodales consequat mauris vulputate vitae. Proin laoreet nisl eu eros feugiat commodo. Pellentesque dignissim arcu nisi, non elementum est semper in. In hac habitasse platea dictumst.</p>
 
@@ -70,9 +75,9 @@
             
               <img src="http://lorempixel.com/630/190" alt="First Image" class="img-responsive">  
             </div>
-          </div>
+          </div></div>
           <!-- BlogRow3 -->
-          <div class="row">
+          <div class="wrapper"><div class="row">
             <div class="col-lg-6 col-md-6 col-sm-6">
               <h3>This is content on the left</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id dapibus purus. Proin est neque, tempus sit amet ex eget, eleifend volutpat diam. Pellentesque sollicitudin nunc massa, sodales consequat mauris vulputate vitae. Proin laoreet nisl eu eros feugiat commodo. Pellentesque dignissim arcu nisi, non elementum est semper in. In hac habitasse platea dictumst.</p>
@@ -81,31 +86,32 @@
               <h3>This is content on the right</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id dapibus purus. Proin est neque, tempus sit amet ex eget, eleifend volutpat diam. Pellentesque sollicitudin nunc massa, sodales consequat mauris vulputate vitae. Proin laoreet nisl eu eros feugiat commodo. Pellentesque dignissim arcu nisi, non elementum est semper in. In hac habitasse platea dictumst.</p>
             </div>
-          </div>
+          </div></div>
         </div>
 
         <div class="col-lg-3 col-md-3">
-          <div class="row">
-            <div class="col-md-12 col-xs-6">
+          <div class="wrapper"><div class="row">
+            <div class="col-md-12">
               <h3>Related Articles</h3>
               <img src="http://lorempixel.com/200/100" alt="First Image" class="img-responsive">
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>    
             </div>  
-            <div class="col-md-12 col-xs-6">
+            
+            <div class="col-md-12">
               <h3 class="featured-article">Featured Article</h3>
               <img src="http://lorempixel.com/200/100" alt="First Image" class="img-responsive">
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>  
             </div>  
-          </div>   
+          </div></div>   
         </div>        
       </div>
     </section>
 
-    <section>
+    <footer class="dark">
       <div class="row empty-footer">
         <!-- space holder -->
       </div>
-    </section>
+    </footer>
   
   </div>
   

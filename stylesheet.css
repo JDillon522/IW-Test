@@ -1,10 +1,61 @@
+body {
+  background-color: #F1F1F1;
+}
+
+section {
+  padding: 25px 5px;
+  margin: 20px 0;
+}
+
+nav {
+  height: 70px;
+  margin-top: 20px;
+}
+
+li {
+  margin-top: -10px;   
+}
+
+footer {
+  height: 70px;
+  margin-bottom: 20px;
+}
+
+a {
+  color: #F1F1F1;
+}
+
+button {
+  background-color: #606060;
+  color: #F1F1F1;
+}
+
+h1 {
+  margin-top: 0px;
+}
+
+.dark {
+  background-color: #606060;
+}
+
+.wrapper {
+  background-color: #BEBEBE;
+}
+
+.light {
+  background-color: #BEBEBE;
+}
+
 .container {
-  background-color: @gray-darker;
   width: 960px !important;
 }
 
 .empty-footer {
   height: 75px;
+}
+
+.title {
+
 }
 
 img {
@@ -27,6 +78,7 @@ img {
 
   .title {
     margin-top: 0px;
+    margin-left: 12px;
   }
 
   .featured-article {
